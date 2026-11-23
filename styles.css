@@ -147,6 +147,25 @@ h1 span { color: var(--accent); }
 .primary-action:hover { background: var(--accent-hover); }
 .primary-action:active { border-color: var(--text); }
 .primary-action svg { width: 1.15rem; height: 1.15rem; }
+.join-code {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--s2);
+  margin-block-start: var(--s3);
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+.join-code code {
+  padding-inline: var(--s2);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--panel);
+  color: var(--text);
+  font-size: inherit;
+  letter-spacing: .05em;
+  user-select: all;
+}
 .hero-art { position: relative; margin-inline: calc(-1 * var(--gutter)); }
 .hero-art img { width: 100%; height: auto; }
 
