@@ -59,17 +59,18 @@ img { display: block; max-width: 100%; }
 .header-inner {
   display: flex;
   align-items: center;
-  min-height: 4.25rem;
+  min-height: 4.875rem;
+  padding-block: var(--s2);
 }
-.wordmark {
+.site-logo {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
-  font: 700 1.5rem/1 var(--font-display);
-  letter-spacing: -.035em;
-  text-decoration: none;
 }
-.wordmark span { color: var(--accent); }
+.site-logo img {
+  width: clamp(4.25rem, 3.5rem + 2vw, 5.375rem);
+  height: auto;
+}
 .hero-inner { position: relative; isolation: isolate; }
 .hero-copy {
   position: relative;
